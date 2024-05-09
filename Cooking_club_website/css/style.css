@@ -12,3 +12,7 @@ a:link, a:visited {
     background-color: rgb(255, 0, 0);
     color: white;
   }
+
+  body {
+    font-style: inherit;
+  }
