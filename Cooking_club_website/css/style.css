@@ -21,13 +21,15 @@ a:link, a:visited {
 }
 header{
   background-color: #84a570;
+  height: 180px;
 }
 main {
         width: 80%;
-        margin-top: 0;
+        margin-top: 16px;
         margin-right: auto;
-        margin-bottom: 0;
+        margin-bottom: 16px;
         margin-left: auto;
+        
 }
 
 h1 {font-size: 60px;
@@ -37,7 +39,7 @@ h1 {font-size: 60px;
 
 
 footer {color: #000000;
-        background-color: #f7f7f7;
+        background-color: #84a570;
         padding: 30px;
 }
 
@@ -48,4 +50,24 @@ footer {color: #000000;
 .icon   {
     margin-top: 40px;
     width: 130px;
+}
+
+#Lambchopswords{
+  text-align: right;
+  margin-right: 261px;
+  font-size: 24px;
+}
+
+#Lambchops{
+  margin-left: 900px; 
+  
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid img {
+  width: 100%;
 }
