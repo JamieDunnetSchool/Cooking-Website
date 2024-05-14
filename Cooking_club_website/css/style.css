@@ -1,4 +1,4 @@
-a:link, a:visited {
+nav a:link, a:visited {
     background-color: white;
     color: black;
     border: 2px solid rgb(0, 0, 0);
@@ -8,7 +8,7 @@ a:link, a:visited {
     display: inline-block;
   }
   
-  a:hover, a:active {
+nav  a:hover, a:active {
     background-color: rgb(255, 0, 0);
     color: white;
   }
@@ -46,7 +46,9 @@ footer {color: #000000;
 #main_image {
         width: 400px;
 }
+main a{
 
+}
 .icon   {
     margin-top: 40px;
     width: 130px;
@@ -70,4 +72,15 @@ footer {color: #000000;
 
 .grid img {
   width: 100%;
+}
+
+.food {
+  font-size: 28px;
+    color: #000000;
+  
+}
+
+#foodlink { 
+          font-size: 28px;
+          color: #000000;
 }
