@@ -46,9 +46,7 @@ footer {color: #000000;
 #main_image {
         width: 400px;
 }
-main a{
 
-}
 .icon   {
     margin-top: 40px;
     width: 130px;
@@ -74,13 +72,20 @@ main a{
   width: 100%;
 }
 
-.food {
-  font-size: 28px;
-    color: #000000;
-  
+
+.food  { 
+        font-size: 28px;
+        color: #000000;
+        text-decoration: none;
 }
 
-#foodlink { 
-          font-size: 28px;
-          color: #000000;
+a.food:hover, a.food:active{
+      font-size: 30px;
+      color: #ff0000;
+      text-decoration: none;  
+}
+
+#Time {
+  margin: 0; display: inline;
+
 }
