@@ -85,7 +85,15 @@ a.food:hover, a.food:active{
       text-decoration: none;  
 }
 
-#Time {
-  margin: 0; display: inline;
+#timetable , td, th{
 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+#main_image2 {
+  width: 400px;
+  
 }
