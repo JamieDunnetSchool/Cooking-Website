@@ -13,23 +13,32 @@ nav  a:hover, a:active {
     color: white;
   }
 
+
+  header{
+    background-color: #84a570;
+    height: 180px;
+  }
+
+  main {
+    width: 80%;
+    margin-top: 16px;
+    margin-right: auto;
+    margin-bottom: 16px;
+    margin-left: auto;
+    
+}
   body {
     font-family: 'Arial', sans-serif;
     background-color: #E5DECC;
     margin: 0px;
     text-align: center;
 }
-header{
+
+
+footer {
+  color: #000000;
   background-color: #84a570;
-  height: 180px;
-}
-main {
-        width: 80%;
-        margin-top: 16px;
-        margin-right: auto;
-        margin-bottom: 16px;
-        margin-left: auto;
-        
+  padding: 30px;
 }
 
 h1 {font-size: 60px;
@@ -38,10 +47,6 @@ h1 {font-size: 60px;
 
 
 
-footer {color: #000000;
-        background-color: #84a570;
-        padding: 30px;
-}
 
 #main_image {
         width: 400px;
@@ -95,5 +100,53 @@ a.food:hover, a.food:active{
 
 #main_image2 {
   width: 400px;
-  
+}
+
+#Ingredients , td, th{
+
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+
+.header {
+  grid-area: header;
+  color: aquamarine;
+  background-color: #84a570;
+}
+.main {
+  grid-area: main;
+  color: blue;  
+  background-color: #E5DECC;
+}
+.sidebar {
+  grid-area: sidebar;
+  color: brown;
+  background-color: #E5DECC;
+  margin-top: 560px;
+}
+.footer {
+  grid-area: footer;
+  color: blueviolet;
+  background-color: #84a570;
+}
+
+.nav {
+  grid-area: nav;
+  color: blueviolet;
+  background-color: #84a570;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    ".  main main sidebar  "
+    "footer footer footer footer";
 }
