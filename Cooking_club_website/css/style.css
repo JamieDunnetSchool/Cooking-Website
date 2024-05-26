@@ -118,24 +118,24 @@ a.food:hover, a.food:active{
 }
 .main {
   grid-area: main;
-  color: blue;  
+  color: rgb(0, 0, 0);  
   background-color: #E5DECC;
 }
 .sidebar {
   grid-area: sidebar;
-  color: brown;
+  color: rgb(0, 0, 0);
   background-color: #E5DECC;
-  margin-top: 560px;
+  margin-top: 100px;
 }
 .footer {
   grid-area: footer;
-  color: blueviolet;
+  color: rgb(0, 0, 0);
   background-color: #84a570;
 }
 
 .nav {
   grid-area: nav;
-  color: blueviolet;
+  color: rgb(0, 0, 0);
   background-color: #84a570;
 }
 
@@ -149,4 +149,8 @@ a.food:hover, a.food:active{
     "nav nav nav nav"
     ".  main main sidebar  "
     "footer footer footer footer";
+}
+
+.mser {text-align: left;
+      cen
 }
